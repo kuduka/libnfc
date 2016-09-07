@@ -2,7 +2,7 @@ language: c
 addons:
   apt:
     packages:
-      - libnfc5
+      - libnfc-dev
 script:
   - ./build.sh
 compiler:
