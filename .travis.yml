@@ -1,6 +1,10 @@
 language: c
+addons:
+  apt:
+    packages:
+      - libnfc5
 script:
-  - make
+  - ./build.sh
 compiler:
   - clang
   - gcc
